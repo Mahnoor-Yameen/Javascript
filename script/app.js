@@ -1,3 +1,5 @@
+/*
+
 //Day - 1     6-April-2023
 
 //Chapter: 01   Alerts
@@ -171,4 +173,18 @@ var spec = prompt(question, defaultAnswer);
 
 var numberOfCats = prompt("How many cats?");
 var tooManyCats = numberOfCats + 1;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
