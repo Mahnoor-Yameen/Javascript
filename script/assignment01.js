@@ -220,27 +220,32 @@ var your_age = +prompt("Enter your age");
 nationality.toLowerCase();
 gender.toLowerCase();
 
-if((nationality=='pakistani' || nationality=='indian') && (gender=='male' || gender=='female') && your_age>=18){
-    if((gender=='male' && your_age>=18)){
-        alert("You are eligible to vote")
+if((nationality=='pakistani' || nationality=='indian')){
+    if((gender=='male' && your_age>18)){
+        alert("You are eligible to vote");
     }
     
-    else if(gender=='female' && your_age>=18){
+    else if(gender=='female' && your_age>18){
         var marriage= prompt("Enter your marrital status: \n 1. Married \n 2. Unmarried");
         marriage.toLowerCase();
         
         if(marriage=='married'){
-            alert("You are eligible to vote")
+            alert("You are eligible to vote");
         }
         else{
-            alert("Sorry, You are not eligible to vote")
+            alert("Sorry, You are not eligible to vote");
         }
+    }
+    else{
+       alert("Sorry, You are not eligible to vote");
     }
     
 }
-else(
-    alert("Sorry, You are not eligible to vote")
-    )
+else{
+    alert("Sorry, You are not eligible to vote");
+}
+
+
     
     /*                                              Task 8:
 You have an array of that contains the name of Pakistani Teams Player selected for

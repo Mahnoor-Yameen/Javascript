@@ -175,8 +175,7 @@ var numberOfCats = prompt("How many cats?");
 var tooManyCats = numberOfCats + 1;
 
 */
-
-
+  
 
 
 
