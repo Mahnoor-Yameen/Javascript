@@ -12,13 +12,13 @@ message to display the calculated zakat value. The message should look like this
 "Your zakat value is xxx".  */
 
 //                     ANSWER: 01
- 
+/* 
 var zakatPercentage = 0.025;
 var userInput = +prompt("Please Enter the Amount you want to take zakat from");
 var result = zakatPercentage * userInput;
 
 alert("Your Zakat Value Is" + " " + result);    
-
+*/
 
 /*                            Task 2:
 calculate the fitrah amount, first, ask the user to enter the total number of family
@@ -31,6 +31,7 @@ Finally, display the calculated fitrah amount using an alert message.  */
 
 
 //                                       ANSWER : 02
+/*
 var familyMembers = +prompt("Please enter the number of your family members");
 
 // now making fitrah method
@@ -64,7 +65,7 @@ else if (options==4){
 
 else {
     alert("Please select the correct option");
-}
+}   */
 
 
 /*                               Task 3:
@@ -77,6 +78,7 @@ guessed the secret number". Otherwise, if the guess is too high or too low, disp
 an appropriate message informing the user to guess again.  */
 
 //                               ANSWER NO : 03
+/*
 var secretNumber = 5;
 var UserGuess = +prompt("Enter a guess for the Secret number");
 
@@ -97,13 +99,14 @@ else if (UserGuess>5){
 else{
   alert("Invalid input")
 }
-
+*/
 
 /*                                 Task 4:
 Create a program that asks the user to enter a name, and then prints out the name
 with the first letter capitalized (Make your name in capitalized case).    */
 
 //                                ANSWER NO: 04
+/*
 
 var UserName = prompt("Please Enter Your Name");
 
@@ -123,7 +126,7 @@ arr2.push(e);                               // array mai dhala
 
 alert(arr1+arr2);                          //dono array display krwaye
 
-
+*/
 
 
 /*                                   Task 5:
@@ -137,7 +140,7 @@ Make sure to use descriptive variable names and comment on your code for clarity
 */
 
 //                                   ANSWER NO: 05 
-
+/*
 contactNames=[];
 contactNumbers=[];
 
@@ -163,6 +166,7 @@ for(i=0 ; i<3 ; i++){
     console.log(contactNames[i] + ":                  " + contactNumbers[i]);
     
 }
+*/
 
 
 /*                                              Task 6:
@@ -174,7 +178,7 @@ array and total number of items remaining.
 
 //                                           ANSWER NO : 06
 
-
+/*
 //initail array of item
 var products=["cakes","pie","pestry","chocolate","coffee"];
 
@@ -195,7 +199,7 @@ for(i=0 ; i<products.length ; i++){
 
 //the total number of items remaining
 console.log("The total number of items remaining are: " + products.length);
-
+*/
 
 /*                                              Task 7:
 Create a program that asks the user for their nationality, gender, and age using the prompt
@@ -212,6 +216,7 @@ to vote.
 */
 
 //                                           ANSWER NO : 07 
+/*
 
 var nationality = prompt("Enter your Nationality");
 var gender = prompt("Enter your Gender: \n 1. Male \n 2. Female");
@@ -246,7 +251,7 @@ else{
 }
 
 
-    
+    */
     /*                                              Task 8:
 You have an array of that contains the name of Pakistani Teams Player selected for
 WorldCup (15 Players) named as WorldCupSquad. Now tomorrow we have a match with
@@ -256,7 +261,7 @@ match from the WorldCupSquad array.
 to make a copy of this array)                   */
 
 //                                           ANSWER NO : 08
-
+/*
 
 //total squad
 var WorldCupSquad= ["Babar","Rizwan","Saim","shaheen","Shinwari","Fakhar","Shadab","Sarfaraz","Haris","Afridi","Asif","Imad","Naseem","Hafeez","Azam","Hassan"]
@@ -269,3 +274,4 @@ var finalteamplayers=WorldCupSquad.slice(0,11);
 
 //now displayed the array
 alert(finalteamplayers);
+*/
